@@ -1,0 +1,6 @@
+Font SATOSHI:
+HTML:
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,300&display=swap" rel="stylesheet">
+
+CSS:
+font-family: 'Satoshi', sans-serif;
