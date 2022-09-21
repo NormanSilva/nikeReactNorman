@@ -1,0 +1,10 @@
+h1{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.greeting{
+ display: flex;
+ justify-content: space-around;
+}

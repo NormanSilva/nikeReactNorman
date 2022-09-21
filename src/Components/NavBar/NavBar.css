@@ -1,0 +1,42 @@
+header{
+    background-color: #B0EE2B;
+    height: 70px;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+a{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    transition: 300ms;
+}
+
+nav{
+    display: flex;
+    margin-right: 2%;
+
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logonike{
+    margin-right: auto;
+    margin-left: 2%;
+}
