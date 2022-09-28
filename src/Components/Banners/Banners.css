@@ -1,0 +1,68 @@
+.displayBannersUno{
+display: flex;
+justify-content: center;
+}
+
+.displayBannersDos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.banner2{
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.NikeRunningFP{
+    Font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    background-image: url(../../../public/img/banner1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+
+    width: 1399px;
+    height: 300px;
+}
+
+.NikeAirForce1{
+    Font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    background-image: url(../../../public/img/banner2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    
+
+    
+
+    width: 680px;
+    height: 325px;
+}
+
+.AirMax98{
+    Font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    background-image: url(../../../public/img/banner3.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    width: 680px;
+    height: 325px;
+
+}

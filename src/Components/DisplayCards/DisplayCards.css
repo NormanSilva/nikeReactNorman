@@ -1,0 +1,8 @@
+.DisplayCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%
+  }

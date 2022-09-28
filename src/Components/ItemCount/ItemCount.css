@@ -1,11 +1,8 @@
-h1{
+.CounterContainer{
+    background-color: #cdcdcc;
     font-family:'Satoshi', sans-serif;
-    font-weight: 700;
-    color: black;
-}
-
-.container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }

@@ -1,0 +1,29 @@
+.HeroContainer{
+    background: #FFFFFF;
+    box-shadow: 292px 161px 133px rgb(0 0 0 / 1%), 164px 91px 112px rgb(0 0 0 / 3%), 73px 40px 83px rgb(0 0 0 / 5%), 18px 10px 46px rgb(0 0 0 / 6%), 0px 0px 0px rgb(0 0 0 / 6%);
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+
+}
+
+.shoeHero{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 114px;
+    margin-top: 50px;
+}
+
+.nikeHero{
+    margin-top: 15px;
+}
