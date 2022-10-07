@@ -116,6 +116,6 @@ export function getProductoCategoria (idCategoriaParams) {
         let filtroProductos = data.filter (
             (elemento) => elemento.categoria === idCategoriaParams
         )
-        setTimeout(() => resolve([filtroProductos]), 2000);   
+        setTimeout(() => resolve(filtroProductos), 2000);   
     });
 };

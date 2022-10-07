@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import "./ItemListContainer.css"
-import { getProductos } from "../../Productos/ProductosAll";
+import { getProductos, getProductoCategoria } from "../../Productos/ProductosAll";
 import DisplayCards from '../DisplayCards/DisplayCards';
 import { useParams } from "react-router-dom";
 
@@ -25,15 +25,13 @@ const ItemListContainer = (props) => {
     }, [categoryId]
   )
   
+  return(
+    <div className='container'>
+      <DisplayCards data = {productosList}/>
+    </div>
+  )  
 
-
-  {productosList.map((data) => {
-    return(
-      <div className='container'>
-        <DisplayCards data = {productosList}/>
-      </div>
-    )  
-  })}
+ 
 }
 
 export default ItemListContainer

@@ -15,9 +15,9 @@ const NavBar = () => {
           <Link to="/"><img src={logotipo} alt="logonike" className='logonike'/></Link>
           <nav>
             <ul className='nav__links'>
-              <li><Link to="/category/airmax"> Air Max </Link></li>
-              <li><Link to="/category/terrascape"> Terrascape </Link></li>
-              <li><Link to="/category/vapormax"> Vapor Max </Link></li>
+              <li><Link to="/category/Air Max"> Air Max </Link></li>
+              <li><Link to="/category/Terrascape"> Terrascape </Link></li>
+              <li><Link to="/category/Vapor Max"> Vapor Max </Link></li>
             </ul>
                 
           </nav>
