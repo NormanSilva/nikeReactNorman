@@ -2,6 +2,7 @@ import React from 'react'
 import "../NavBar/NavBar.css";
 import logotipo from '../../logonike.svg'
 import CartWidget from '../NavBar/CartWidget'
+import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
@@ -11,17 +12,18 @@ const NavBar = () => {
   return (
     <>
         <header>
-            <img src={logotipo} alt="logonike" className='logonike'/>
-            <nav>
-                <ul className='nav__links'>
-                    <li><a href="#"> Inicio </a></li>
-                    <li><a href="#"> Hombre </a></li>
-                    <li><a href="#"> Mujer </a></li>
-                    <li><a href="#"> Ropa </a></li>
-                </ul>
+          <Link to="/"><img src={logotipo} alt="logonike" className='logonike'/></Link>
+          <nav>
+            <ul className='nav__links'>
+              <li><Link to="/category/airmax"> Air Max </Link></li>
+              <li><Link to="/category/terrascape"> Terrascape </Link></li>
+              <li><Link to="/category/vapormax"> Vapor Max </Link></li>
+            </ul>
                 
-            </nav>
+          </nav>
+          <Link to="/cart">
             <CartWidget/>
+          </Link>
 
 
         </header>

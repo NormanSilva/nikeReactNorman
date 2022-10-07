@@ -1,6 +1,7 @@
 import React from 'react'
 import './CartWidget.css'
 import iconoBolsa from '../../iconoBolsa.svg'
+import { Link } from "react-router-dom";
 
 const CartWidget = () => {
 
@@ -8,9 +9,11 @@ const CartWidget = () => {
   return (
     <div>
       <div className='ContainerIcon'>
-        <a href="#" className='iconBolsa'>
-          <img src={iconoBolsa} alt="iconoBolsa"/>
-        </a>
+        <Link to ="cart">
+          <div className='iconBolsa'>
+            <img src={iconoBolsa} alt="iconoBolsa"/>
+          </div>
+        </Link> 
       </div>
     </div>
   )

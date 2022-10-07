@@ -14,6 +14,7 @@ function ItemList(props) {
                     picture = {zapatilla.picture}
                     title = {zapatilla.title}
                     price = {zapatilla.price}
+                    categoria = {zapatilla.categoria}
                 />
             )
         })

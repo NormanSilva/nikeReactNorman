@@ -3,31 +3,44 @@ import NavBar from "../src/Components/NavBar/NavBar";
 import ItemListContainer from '../src/Components/ItemList/ItemListContainer';
 import Hero from './Components/Hero/Hero';
 import Banners from './Components/Banners/Banners';
-import ItemCount from "./Components/ItemCount/ItemCount";
-
+// import ItemCount from "./Components/ItemCount/ItemCount";
+import ItemLDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 
 
 function App() {
+
+
+
   return (
     <>
-      <div>
-        <NavBar/>
-      </div>
-      <Hero/>
-      <ItemListContainer greeting = "Bienvenido a mi E-Commerce"/>
-      <ItemCount/>
-    
+      <BrowserRouter>
+        <div>
+          <NavBar/>
+        </div>
 
-      <Banners/>
-      
+        <Routes>
+          <Route path = "/" element = {
+            <>
+              <Hero/>
+              <ItemListContainer greeting = "Bienvenido a mi E-Commerce"/>
+              <Banners/>
+            </>
+          }/>
+
+          <Route path = "/item/:id" element = {<ItemLDetailContainer/>}/>
+          <Route path = "/category/:categoryId" element = {<ItemListContainer/>}/>
 
 
 
 
 
 
+
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
