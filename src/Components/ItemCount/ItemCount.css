@@ -1,8 +1,96 @@
 .CounterContainer{
-    background-color: #cdcdcc;
-    font-family:'Satoshi', sans-serif;
+    background-color: #F3FFE0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
+    border-radius: 15px;
     
+}
+
+h1{
+    
+    font-size: 45px;
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.display1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.selecCantidad{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.buttonContador{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    background:#FFFFFF;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    box-shadow: 8px 11px 5px rgba(0, 0, 0, 0.01), 4px 6px 5px rgba(0, 0, 0, 0.05), 2px 3px 3px rgba(0, 0, 0, 0.09), 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttonAddCart{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000;
+    width: auto;
+    height: auto;
+    background-color: #F3FFE0;
+    border: 3px solid #8EDA12;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10%;
+}
+
+.verCarrito{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(253, 253, 253);
+    width: auto;
+    height: auto;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 5%;
+}
+
+.buttonContador:hover{
+    border: 3px solid #8EDA12
+}
+
+.buttonAddCart:hover{
+    box-shadow: 8px 11px 5px rgba(0, 0, 0, 0.01), 4px 6px 5px rgba(0, 0, 0, 0.05), 2px 3px 3px rgba(0, 0, 0, 0.09), 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.verCarrito:hover{
+    box-shadow: 8px 11px 5px rgba(0, 0, 0, 0.01), 4px 6px 5px rgba(0, 0, 0, 0.05), 2px 3px 3px rgba(0, 0, 0, 0.09), 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border: 3px solid #8EDA12;
 }

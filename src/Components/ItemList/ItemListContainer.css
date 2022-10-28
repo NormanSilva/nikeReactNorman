@@ -9,3 +9,18 @@ h1{
     flex-direction: column;
     align-items: center;
 }
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.mensajeError{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}

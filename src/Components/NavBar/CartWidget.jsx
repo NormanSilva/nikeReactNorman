@@ -1,19 +1,31 @@
 import React from 'react'
 import './CartWidget.css'
 import iconoBolsa from '../../iconoBolsa.svg'
-import { Link } from "react-router-dom";
+import { cartContext } from '../../Context/Context'
+import { useContext, useEffect, useState } from 'react'
+
 
 const CartWidget = () => {
 
+  const [countItem, setCountItem] = useState(0)
+  const {cart} = useContext(cartContext)
+  useEffect(() => {
+    let valor = 0
+    let newCart = [...cart]
+    newCart.forEach(item => {
+      valor = valor + item.count
+    })
+    setCountItem(valor)
+  }, [cart])
+
 
   return (
-    <div>
+    <div className='display1'>
+      {countItem}
       <div className='ContainerIcon'>
-        <Link to ="cart">
-          <div className='iconBolsa'>
-            <img src={iconoBolsa} alt="iconoBolsa"/>
-          </div>
-        </Link> 
+        <div className='iconBolsa'>
+          <img src={iconoBolsa} alt="iconoBolsa"/>
+        </div> 
       </div>
     </div>
   )

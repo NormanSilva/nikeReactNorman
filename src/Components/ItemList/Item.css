@@ -2,7 +2,7 @@
     background: #F3F3F3;
     border-radius: 20px;
     width: 333px;
-    height: 335px;
+    height: 375px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -20,6 +20,7 @@
 
 .Item-picture{
     height: 80px;
+    margin-bottom: auto;
 }
 
 
@@ -33,7 +34,7 @@
     font-weight: 700;
     font-size: 25px;
     color: #0A0A0A;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .Item-price{
@@ -41,4 +42,12 @@
     font-weight: 500;
     font-size: 25px;
     color: #858585;
+}
+
+.Item-description{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #858585;
+
 }
