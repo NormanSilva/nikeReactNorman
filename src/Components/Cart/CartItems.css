@@ -1,0 +1,23 @@
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.title{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.count{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}

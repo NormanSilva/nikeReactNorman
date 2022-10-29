@@ -9,6 +9,7 @@ import Cart from "./Components/Cart/Cart"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import  CartContextProvider from './Context/Context';
 import firebaseApp from './services/firebase';
+import Formulario from './Components/Formulario/Formulario';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route path = "/item/:id" element = {<ItemLDetailContainer/>}/>
           <Route path = "/category/:categoryId" element = {<ItemListContainer/>}/>
           <Route path = "/cart" element = {<Cart/>} />
+          <Route path = "/checkout" element={<Formulario/>}/>
 
 
 

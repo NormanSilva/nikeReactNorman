@@ -3,13 +3,17 @@ import "../NavBar/NavBar.css";
 import logotipo from '../../logonike.svg'
 import CartWidget from '../NavBar/CartWidget'
 import { Link } from 'react-router-dom';
+import { cartContext } from '../../Context/Context'
+import { useContext } from 'react';
+
 
 
 const NavBar = () => {
 
-
+  const {cart} = useContext(cartContext)
 
   return (
+
     <>
         <header>
           <Link to="/"><img src={logotipo} alt="logonike" className='logonike'/></Link>
@@ -21,9 +25,10 @@ const NavBar = () => {
             </ul>
                 
           </nav>
+          { cart.length > 0 ?
           <Link to="/cart">
-            <CartWidget/>
-          </Link>
+            <CartWidget />
+          </Link> : <div></div>}
 
 
         </header>

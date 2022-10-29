@@ -21,9 +21,22 @@ export default function CartContextProvider(props) {
         }
         setCart(newItem) 
         console.log("carrito", newItem)
+
+        
+
     }
+        const deleteItem = (id) => {
+            setCart(cart.filter(element => element.id !== id))
+        }
+
+        const vaciarCarrito = () =>{
+            setCart([]);
+            }
+            
+        
+
     return (
-        <cartContext.Provider value={{cart, addItemCount}}>
+        <cartContext.Provider value={{cart, addItemCount, deleteItem, vaciarCarrito}}>
             {props.children}
         </cartContext.Provider>
     )

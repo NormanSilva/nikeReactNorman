@@ -13,7 +13,7 @@ function Item(props) {
               <p className='Item-Title'>{props.title}</p>
               <p className='Item-description'>{props.description}</p>
               <p className='Item-price'>$ {props.price}</p>
-          </div>
+        </div>
           
       </div>
     </Link>

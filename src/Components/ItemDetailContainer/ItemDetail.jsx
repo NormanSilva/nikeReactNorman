@@ -8,8 +8,8 @@ const ItemDetail = (props) => {
   const {addItemCount} = useContext(cartContext)
 
     function onAdd (count){
-        const item = {id: props.id, title: props.title, picture: props.picture, description: props.description, price: props.price, count: count}
-        addItemCount(item)
+      const item = {id: props.id, title: props.title, picture: props.picture, description: props.description, price: props.price, count: count}
+      addItemCount(item)
     }
 
   return (
