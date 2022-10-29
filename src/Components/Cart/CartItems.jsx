@@ -4,7 +4,7 @@ import './CartItems.css'
 import { cartContext } from '../../Context/Context'
 import { useContext } from 'react';
 
-const CartItems = ({id, title, picture, price, count}) => {
+const CartItems = ({id, title, picture, count}) => {
     const {deleteItem} = useContext(cartContext)
     console.log(picture)
   return (

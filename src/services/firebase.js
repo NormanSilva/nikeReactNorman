@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, doc, getDoc, query, where } from "firebase/firestore";
+import { getFirestore, collection, getDocs, doc, getDoc, query, where, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAXCBCXEXVtIA2DQfCSkan8Fvf9PK1QHAA",
@@ -71,6 +71,15 @@ export async function getProductoCategoria (idCategoriaParams){
     }
 }
 
+export async function createOrder (order){
+    const collectionRef = collection(db, "ordenes")
+    let result = await addDoc(collectionRef, order)
+    if(result.id.length !== 0){
+        return result.id
+    }else{
+        throw new Error("No se creo la orden, intentalo de nuevo.")
+    }
+}
 
 
 

@@ -6,3 +6,80 @@
     gap: 50px;
     margin-top: 3%;
 }
+.totalAPagar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    /* font-size: 60px; */
+    color: black;
+}
+
+.buttonFinalizar{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    background:#161616;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+
+}
+
+.buttonVaciar{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0b0b0b;
+    width: auto;
+    height: auto;
+    background:#8EDA12;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttonVaciar:hover{
+    border: 5px solid #171717;
+    transition: 300ms;
+}
+
+.buttonFinalizar:hover{
+    border: 5px solid #8EDA12;
+    transition: 300ms;
+}

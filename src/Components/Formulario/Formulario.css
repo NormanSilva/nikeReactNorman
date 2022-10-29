@@ -1,0 +1,115 @@
+.ContainerFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: #F3F3F3;
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.buttonFinalizarCompra{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    background:#161616;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+}
+
+.buttonFinalizarCompra:hover{
+    border: 5px solid #8EDA12;
+    transition: 300ms;
+}
+
+.displayform1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.labelClass{
+    margin-right: 20px;
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.inputClass{
+    background-color: #d9f4ae;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    font-family:'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 50%;
+}
+
+.compraCorrecta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titlecarritoVacio{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.carritoVacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCarritoVacio{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    background:#161616;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+}
+
+.buttonCarritoVacio:hover{
+    border: 5px solid #8EDA12;
+    transition: 300ms;
+}
+
+.conteinerGracias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+}
+
+.nroOrden{
+    font-family:'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.h1Orden{
+    background-color: #e6f8ca;
+    padding: 25px;
+    border-radius: 15px;
+}
